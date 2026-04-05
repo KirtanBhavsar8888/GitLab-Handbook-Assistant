@@ -7,7 +7,8 @@ from groq import Groq
 from dotenv import load_dotenv
 from pathlib import Path
 
-load_dotenv(dotenv_path=Path(__file__).parent / ".env")
+load_dotenv(dotenv_path=Path(__file__).parent / ".env", override=False)
+GROQ_API_KEY = os.getenv("GROQ_API_KEY") or st.secrets.get("GROQ_API_KEY", "")
 
 GROQ_API_KEY = os.getenv("GROQ_API_KEY")
 CHROMA_PATH = str(Path(__file__).parent / "chroma_db")
