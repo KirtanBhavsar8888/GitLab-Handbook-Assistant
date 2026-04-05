@@ -3,6 +3,8 @@
 An AI-powered chatbot that lets employees and candidates instantly query GitLab's [Handbook](https://handbook.gitlab.com/) and [Direction](https://about.gitlab.com/direction/) pages using natural language — no more manual searching through thousands of pages.
 
 ---
+### Live Link
+Live Link: [Live](https://app-handbook-assistant-dtkfnrappltvirxkb4eu2rq.streamlit.app/)
 
 ## 🏗️ Architecture
 
