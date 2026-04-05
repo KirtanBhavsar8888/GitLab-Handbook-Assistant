@@ -10,7 +10,7 @@ from pathlib import Path
 load_dotenv(dotenv_path=Path(__file__).parent / ".env")
 
 GROQ_API_KEY = os.getenv("GROQ_API_KEY")
-CHROMA_PATH = "./chroma_db"
+CHROMA_PATH = str(Path(__file__).parent / "chroma_db")
 COLLECTION_NAME = "gitlab_docs"
 OUT_OF_SCOPE_PHRASE = "I don't have information about this in the GitLab Handbook."
 
