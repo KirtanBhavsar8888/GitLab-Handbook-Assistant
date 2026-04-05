@@ -1,0 +1,7 @@
+.env
+.venv/
+venv/
+scraped_data.json
+sample_questions
+__pycache__/
+*.pyc
